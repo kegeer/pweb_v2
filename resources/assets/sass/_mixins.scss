@@ -1,0 +1,23 @@
+@mixin ease-out-transition ($time) {
+  -webkit-transition: all $time ease-out;
+  -o-transition: all $time ease-out;
+  transition: all $time ease-out;
+}
+
+@mixin ease-transition ($time, $ease-time) {
+  -webkit-transition: all $time ease $ease-time;
+  -o-transition: all $time ease $ease-time;
+  -moz-transition: all $time ease $ease-time;
+  -ms-transition: all $time ease $ease-time;
+  transition: all $time ease $ease-time;
+}
+
+@mixin border-radius($value) {
+  border-radius: $value;
+}
+
+@mixin box-shadow($i, $x, $y, $r, $or, $color) {
+  -webkit-box-shadow: $i $x $y $r $or $color;
+  -moz-box-shadow: $i $x $y $r $or $color;
+  box-shadow: $i $x $y $r $or $color;
+}

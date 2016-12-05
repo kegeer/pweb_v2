@@ -1,0 +1,74 @@
+@mixin icon($name, $width, $height) {
+  background: url('../images/icons/'  + $name + '.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: $width + px;
+  height: $height + px;
+}
+
+.icon-muying {
+  @include icon(icon-muying, 60, 60);
+  vertical-align: middle;
+  padding-right: 30px;
+}
+
+.icon-brain {
+  @include icon(brain, 100, 100);
+  vertical-align: middle;
+}
+.icon-blood {
+  @include icon(blood, 100, 100);
+  vertical-align: middle;
+}
+.icon-brain-dk {
+  @include icon(brain-dk, 100, 100);
+  vertical-align: middle;
+}
+.icon-blood-dk {
+  @include icon(blood-dk, 100, 100);
+  vertical-align: middle;
+}
+
+.icon-brain-intro {
+  @include icon(brain-intro, 40, 40);
+  vertical-align: middle;
+}
+.icon-blood-intro {
+  @include icon(blood-intro, 40, 40);
+  vertical-align: middle;
+}
+
+.icon-tube {
+  @include icon(tube, 40, 40);
+}
+
+.icon-p-s-1 {
+  @include icon(p-s-1, 100, 100);
+}
+
+.icon-p-s-2 {
+  @include icon(p-s-2, 100, 100);
+}
+
+.icon-p-s-3 {
+  @include icon(p-s-3, 100, 100);
+}
+
+.icon-p-s-4 {
+  @include icon(p-s-4, 100, 100);
+}
+
+.icon-p-s-5 {
+  @include icon(p-s-5, 100, 100);
+}
+
+.icon-p-s-6 {
+  @include icon(p-s-6, 100, 100);
+}
+
+.icon-computer {
+  @include icon(computer, 40, 40);
+}
+.icon-dna {
+  @include icon(dna, 40, 40);
+}

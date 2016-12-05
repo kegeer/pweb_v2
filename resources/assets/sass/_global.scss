@@ -1,0 +1,44 @@
+.bgc-l-g {
+  background-color: #f9f9f9;
+}
+.bgc-p {
+  background-color: $c-p;
+}
+.bgc-l-d {
+  background-color: $gray-d-1;
+}
+
+.text-gray {
+  color: #333 !important;
+}
+.text-white {
+  color: $gray-l-4 !important;
+}
+
+.md-text-left {
+    text-align: left;
+    @media (max-width: 991px) {
+        text-align: center;
+    }
+}
+
+.md-text-right {
+    text-align: right;
+    @media (max-width: 991px) {
+        text-align: center;
+    }
+}
+p.lead {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.img-intro {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+  @media (max-width: 991px) {
+    width: 40%;
+  }
+}
