@@ -17,7 +17,7 @@
   </div>
 
   
-  <div class="container-fluid feature">
+  <div class="container-fluid block">
     <div class="container">
       <div class="row feature-section">
         <div class="col-sm-2 text-center">

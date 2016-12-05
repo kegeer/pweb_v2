@@ -765,29 +765,16 @@ h3.job-head {
     margin-top: 0;
   }
 }
-// .vision {
-//   background-image: url('../images/us-intro.jpg');
-//   background-size: cover;
-//   background-position: center center;
-//   width: 100%;
-//   padding: 75px 0;
-//   h3 {
-//     color: white;
-//   }
-//   h4 {
-//     color: $gray-l-4;
-//   }
-//   p {
-//     color: white;
-//   }
-// }
 
 .vision {
   background-image: url('../images/us-vision.png');
+  background-color: lighten($c-s, 10%);
   background-repeat: no-repeat;
-  background-position:top;
+  background-position:center;
   position: relative;
   margin-bottom: 80px;
+  min-height: 400px;
+  padding:100px;
   .divider {
     border-top: 1px solid $c-p;
     position: relative;
@@ -809,15 +796,16 @@ h3.job-head {
     }
   }
   .section-title {
+    color: #fff;
     font-size: 52px;
     font-weight: 300;
-    color: $gray-base;
   }
   .section-subtitle {
+    color: #fff;
     font-size: 22px;
     font-weight: 100;
     line-height: 32px;
-    color: $gray-l-1;
+    color: $gray-l-4;
     width: 55%;
     margin: 20px auto 40px;
   }
@@ -833,14 +821,16 @@ h3.job-head {
 }
 
 ul.address {
-  margin-bottom: 48px;
+  padding: 100px 0 30px;
   li {
     margin: 24px;
     font-size: 18px;
     span {
       color: $c-s;
-      font-weight: 300;
+      font-weight: 500;
       margin-right: 18px;
+      display: inline-block;
+      width: 100px;
     }
   }
 }

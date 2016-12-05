@@ -11777,10 +11777,13 @@ h3.job-head i {
 
 .vision {
   background-image: url("../images/us-vision.png");
+  background-color: #3389b8;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   position: relative;
   margin-bottom: 80px;
+  min-height: 400px;
+  padding: 100px;
 }
 
 .vision .divider {
@@ -11806,16 +11809,17 @@ h3.job-head i {
 }
 
 .vision .section-title {
+  color: #fff;
   font-size: 52px;
   font-weight: 300;
-  color: #333;
 }
 
 .vision .section-subtitle {
+  color: #fff;
   font-size: 22px;
   font-weight: 100;
   line-height: 32px;
-  color: #5c5c5c;
+  color: #ededed;
   width: 55%;
   margin: 20px auto 40px;
 }
@@ -11830,7 +11834,7 @@ h3.job-head i {
 }
 
 ul.address {
-  margin-bottom: 48px;
+  padding: 100px 0 30px;
 }
 
 ul.address li {
@@ -11840,8 +11844,10 @@ ul.address li {
 
 ul.address li span {
   color: #286B90;
-  font-weight: 300;
+  font-weight: 500;
   margin-right: 18px;
+  display: inline-block;
+  width: 100px;
 }
 
 /* product page */

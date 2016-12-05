@@ -47,9 +47,9 @@
     <div class="container-fluid vision">
       <div class="container">
         <div class="row text-center">
-          <div class="divider">
+          {{-- <div class="divider">
             <i class="fa fa-support"></i>
-          </div>
+          </div> --}}
           <header class="text-center">
             <h2 class="section-title">数字微生态新技术引领者</h2>
             <p class="section-subtitle">建立并保持国际领先的微生物基因大数据采集及数据挖掘</p>

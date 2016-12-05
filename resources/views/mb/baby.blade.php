@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid feature bgc-l-g">
+    <div class="container-fluid block bgc-l-g">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-10 col-md-offset-1 product-intro">
