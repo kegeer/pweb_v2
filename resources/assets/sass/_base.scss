@@ -125,47 +125,8 @@ ul {
 }
 
 // homepage header
-#home {
-  .header {
-    background-color: $c-s;
-  }
-  .subheading {
-    color: $gray-base;
-    background-color: $c-s;
-    padding: 150px 0;
-    padding-top: 74px;
-    background-attachment: local;
-    background-position: right 0px top 0px;
-    background-size: 45%;
-    background-repeat: no-repeat;
-    background-image: url('../images/bg-1.png');
-    h1, h2 {
-      color: #fff;
-    }
-    h2 {
-      margin-bottom: 50px;
-    }
-  }
-}
 
 // microbiome page header
-
-#microbiome {
-  .header {
-    background-color: $c-s;
-  }
-  .subheading {
-    color: #fff;
-    background-color: $c-s;
-    padding-top: 75px;
-    background-image: url('../images/intro-1.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-position: right 40px center;
-    background-size: 45%;
-  }
-}
 
 .product {
   padding: 70px 0;
@@ -225,22 +186,6 @@ ul {
 
 /* pathogen page styles */
 
-#pathogen {
-  .header {
-    background-color: $c-s;
-  }
-  .subheading {
-    color: #fff;
-    background-color: $c-s;
-    padding-top: 75px;
-    background-image: url('../images/pathogen-index.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-position: right 40px center;
-    background-size: 45%;
-  }
-}
 .media-body {
   h3 {
     font-size: 18px;
@@ -302,7 +247,7 @@ ul {
   &:hover {
     opacity: .8;
     color: #fff;
-    @inlcude ease-out-transition(.15s);
+    @include ease-out-transition(.15s);
   }
 }
 .outline {
@@ -321,12 +266,21 @@ ul {
 
 .subfooter {
   color: #fff;
-  background-color: darken($c-s,13%);
+  background-color: lighten($c-s,13%);
   padding: 50px 0;
   background-size: contain;
   background-position: center 120px;
   background-image: url('../images/footer.png');
   background-repeat: no-repeat;
+  h3, h4 {
+      color: #fff;
+  }
+  .btn {
+      background: $c-t;
+      color: #fff;
+      margin: 0 10px;
+      margin-top: 30px;
+  }
   p {
     margin-top: 30px;
   }
@@ -452,8 +406,8 @@ ul {
 .step {
   .circle {
     margin: 0 auto;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     padding: 20px;
     background: $c-t;
     @include border-radius(50%);
@@ -467,12 +421,21 @@ ul {
 }
 .bgi-step {
   background: #f9f9f9 url('../images/bgi-step.png') no-repeat scroll center 30px;
-  padding: 100px 0;
+  padding: 90px 0;
+  background-size: 60%;
+  @media (max-width: 991px) {
+      background-image: none;
+  }
   &.product-step {
     background: $c-t url('../images/bgi-step.png') no-repeat scroll center 30px;
+    padding: 90px 0;
+    background-size: 60%;
+    @media (max-width: 991px) {
+        background-image: none;
+    }
     .step {
       .circle {
-        background: $c-s;
+        background: $gray-base;
       }
       h3 {
         color: white;
@@ -482,21 +445,7 @@ ul {
 }
 
 /* partner page styles */
-#partner {
-  .header {
-    background-color: $c-s;
-  }
-  .subheading {
-    color: #fff;
-    background-color: $c-s;
-    padding-top: 75px;
-    background-image: url('../images/partner-index.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top 20% right;
-    background-size: 45%;
-  }
-}
+
 .row-double {
   position: relative;
   margin: 30px 0;
@@ -551,7 +500,7 @@ ul {
     .bg-image {
       position: absolute;
       top: 0;
-      height: 100%;
+      width: 100%;
     }
   }
   .content {
@@ -622,22 +571,6 @@ ul {
 }
 
 /* hire page style */
-#hire {
-  .header {
-    background-color: $c-f;
-  }
-  .subheading {
-    color: #fff;
-    background-color: $c-f;
-    padding-top: 75px;
-    background-image: url('../images/hire-index.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top 20% right;
-    background-size: 45%;
-  }
-}
-
 .toggle-view-custom {
   margin:0;
   padding:0;
@@ -658,8 +591,8 @@ ul {
     margin-left: 49px;
     padding: 15px;
     padding-right: 17px;
-    -webkit-box-shadow: none; 
-    -moz-box-shadow: none; 
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
   }
 }
@@ -676,7 +609,7 @@ ul {
 }
 .toggle-view-custom .panel p {
   margin-top:0;
-} 
+}
 .panel p:last-child {
   margin-bottom:0px;
 }
@@ -737,22 +670,32 @@ h3.job-head {
     margin-right: 24px;
   }
 }
-#us {
-  .header {
-    background-color: $c-s;
-  }
-  .subheading {
-    color: #fff;
-    background-color: $c-s;
-    padding-top: 75px;
-    background-image: url('../images/pathogen-index.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-position: right 40px center;
-    background-size: 45%;
-  }
+
+.hire-site {
+    li {
+        background: #e9e9e9;
+        padding: 16px;
+        margin: 24px 0;
+        a {
+            color: $c-s;
+            font-weight: 100;
+            font-size: 18px;
+        }
+    }
 }
+.cv {
+    .btn {
+        background: $c-t;
+        color: #fff;
+        margin: 0 10px;
+        margin-top: 30px;
+    }
+    i {
+        margin-right: 12px;
+    }
+}
+
+// us page styles
 .number {
   text-align: center;
   h3 {
@@ -814,6 +757,9 @@ h3.job-head {
   iframe {
     border: none;
     width: 100%;
+    @media (max-width: 991px) {
+        margin: 30px;
+    }
   }
   a.outline {
     margin: 24px;
@@ -837,22 +783,6 @@ ul.address {
 
 /* product page */
 // baba
-#baba {
-  .header {
-    background-color: $c-s;
-  }
-  .subheading {
-    color: #fff;
-    background-color: $c-s;
-    padding-top: 75px;
-    background-image: url('../images/pathogen-index.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom right;
-    background-position: right 40px center;
-    background-size: 45%;
-  }
-}
 .product-feature {
   margin: 60px 0;
   display: block;
@@ -901,15 +831,30 @@ ul.address {
   }
 }
 
+
+// product page style
+.product-head {
+  h3 {
+    color: $gray-base !important
+  }
+  p {
+    font-size: 18px;
+    color: $gray-l-1 !important;
+  }
+}
 .product-intro {
   h4{
-    font-weight: 400;
-    line-height: 38px;
+    font-size: 24px;
+    font-weight: 500;
   }
   p {
     color: $gray-l-1;
-    a {
-      margin-top: 30px;
-    }
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+  .btn {
+    background-color: $c-t;
+    color: #fff;
   }
 }

@@ -1,55 +1,50 @@
-@extends('layouts.default')
+@extends('layouts.app')
 
 @section('content')
-  <div id="baba">
-    @include('layouts.navbar')
-
-    <div class="container-fluid block subheading">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3>体重管理检测</h3>
-            <h4>精准的肥胖基因检测+肠道菌群代谢水平检测+个性化管理方案</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid block bgc-l-g">
+	<section class="bg-head baby-head">
+		<div class="container">
+			<div class="position-center-center  product-head">
+				<h3>婴fen说</h3>
+				<p>婴幼儿营养代谢检测</p>
+			</div>
+		</div>
+	</section>
+	<div class="container-fluid block bgc-l-g">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-10 col-md-offset-1 product-intro">
-            <h4>肥胖风险基因、饮食不均衡、代谢水平异常等引发肥胖的发生。肥胖是高血压、高血脂、高血糖等慢性病的首要危险因素。人体肥胖风险基因检测与肠道菌群评估代谢水平，精准化制定个性化的体重管理方案。</h4>
-            <p><a href="#obesity-info" class="knowmore">了解更多</a></p>
+			  	<h4>产品简介</h4>
+            <p>营养代谢直接关系婴幼儿的生长发育情况和合理性，而肠道是营养消化吸收的最直接场所，检测肠道菌群的状况，帮助评估婴幼儿的能量摄入量、营养均衡性、生理功能发育重要物质、潜在感染风险等。</p>
+						<a href="#baby-info" class="btn">了解更多</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid block" id="obesity-info">
+    <div class="container-fluid block" id="baby-info">
       <div class="container">
         <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-right">
           <div class="product-feature">
-              <h5>精准预测肥胖风险</h5>
+              <h5>评估机体能量摄入是否充足</h5>
               <p class="m-b-0 text-muted">
-                肠道菌群+人自身基因组检测，准确预测肥胖风险
+                碳水化合物、脂类和蛋白质是产能营养素，检测它们能够反映机体对能量的需求是否得到满足。
               </p>
             </div>
             <div class="product-feature m-t-120">
-                <h5>评估肥胖相关疾病风险</h5>
+                <h5>全面评估婴幼儿生长发育情况</h5>
                 <p class="m-b-0 text-muted">
-                肥胖是多种代谢性疾病的源头，通过菌群分析，评估相关疾病风险
+                必需氨基酸、维生素和生长发育关键物质如DHA，EPA等，对婴幼儿生长发育至关重要，检测它们能反映婴幼儿生长发育情况。
                 </p>
             </div>
           </div>
           <div class="col-lg-4 col-lg-push-1 col-md-4">
-            <img src="/images/products/obesity.png" alt="" class="img-responsive img-intro">
+            <img src="/images/products/baby.png" alt="" class="img-responsive img-intro">
           </div>
           <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-left">
             <div class="product-feature">
-                <h5>精准管理体重，健康减重</h5>
+                <h5>评估肠道中益生菌含量是否正常</h5>
                 <p class="m-b-0 text-muted">
-                  科学地制定个性化健康管理方案，精准、健康减重
+                  检测婴幼儿肠道中益生菌含量，预防因益生菌缺少而导致腹泻、感染的风险增加。
                 </p>
             </div>
             <div class="product-feature">
@@ -116,25 +111,24 @@
         </div>
       </div>
     </div>
-    
+
     <div class="container-fluid block bgc-l-g">
       <div class="container">
         <div class="row">
           <div class="row row-double right">
               <div class="col-md-6 image">
-                  <img src="/images/obesity-suit.jpg" class="bg-image">
+                  <img src="/images/baby-suit.jpg" class="bg-image">
               </div>
               <div class="col-md-6 content">
                   <h2>适用领域以及症状</h2>
                   <p class="text-white-dark m-b-15">
-                      以下情况推荐检测
+                      0-2岁婴幼儿，并有以下情况者推荐检测
                   </p>
                   <ul class="list-items">
-                      <li><i class="fa fa-check"></i>BMI值>24</li>
-                      <li><i class="fa fa-check"></i>心血管疾病既往史或家族史</li>
-                      <li><i class="fa fa-check"></i>糖尿病既往史或家族史</li>
-                      <li><i class="fa fa-check"></i>脂肪肝既往史或家族史</li>
-                      <li><i class="fa fa-check"></i>关注自己身体健康的各类人群</li>
+                      <li><i class="fa fa-check"></i>早期使用抗生素</li>
+                      <li><i class="fa fa-check"></i>非母乳喂养</li>
+                      <li><i class="fa fa-check"></i>腹泻或便秘</li>
+                      <li><i class="fa fa-check"></i>希望留下肠道最初状态的“快照”</li>
                   </ul>
                   <span>
                   <a href="/us" class="outline">
@@ -147,6 +141,4 @@
         </div>
       </div>
     </div>
-
-
-  </div>
+@stop

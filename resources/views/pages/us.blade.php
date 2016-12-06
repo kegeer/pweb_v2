@@ -1,20 +1,14 @@
-@extends('layouts.default')
+@extends('layouts.app')
 
 @section('content')
-  <div id="us">
-    @include('layouts.navbar')
-
-    <div class="container-fluid block subheading">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3>关于我们</h3>
-            <h4>引领微生物技术发展的前驱</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid block bgc-l-g">
+	<section class="bg-head us-head">
+		<div class="container">
+			<div class="position-center-center">
+				<h3>关于谱元</h3>
+			</div>
+		</div>
+	</section>
+	<div class="container-fluid block bgc-l-g">
       <div class="container">
         <div class="row text-center">
           <h3>谱元历史</h3>
@@ -47,13 +41,10 @@
     <div class="container-fluid vision">
       <div class="container">
         <div class="row text-center">
-          {{-- <div class="divider">
-            <i class="fa fa-support"></i>
-          </div> --}}
-          <header class="text-center">
+          <div class="text-center">
             <h2 class="section-title">数字微生态新技术引领者</h2>
             <p class="section-subtitle">建立并保持国际领先的微生物基因大数据采集及数据挖掘</p>
-          </header>
+		</div>
         </div>
       </div>
     </div>
@@ -63,9 +54,9 @@
           <div class="col-md-6">
             <ul class="address">
               <li><span>联系地址:</span>深圳市龙华新区五和大道锦绣科学园8栋西区五楼</li>
-              <li><span>联系电话：</span>0755-22361766</li>  
-              <li><span>传真：</span>0755-22361766</li>  
-              <li><span>邮箱：</span>service@microbiota.cn</li>  
+              <li><span>联系电话：</span>0755-22361766</li>
+              <li><span>传真：</span>0755-22361766</li>
+              <li><span>邮箱：</span>service@microbiota.cn</li>
             </ul>
             <a href="/us" class="outline">联系我们</a>
           </div>
@@ -76,10 +67,4 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-  </div>
 @stop

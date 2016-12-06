@@ -1,21 +1,15 @@
-@extends('layouts.default')
+@extends('layouts.app')
 
 @section('content')
-  <div id="baba">
-    @include('layouts.navbar')
-
-    <div class="container-fluid block subheading">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3>粑粑说</h3>
-            <h4>肠道菌群检测成人精英版</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid block" id="baba-info">
+	<section class="bg-head baba-head">
+		<div class="container">
+			<div class="position-center-center product-head">
+				<h3>粑粑说</h3>
+				<p>肠道菌群检测成人精英版</p>
+			</div>
+		</div>
+	</section>
+	<div class="container-fluid block" id="baba-info">
       <div class="container">
         <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-right">
           <div class="product-feature">
@@ -105,7 +99,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="container-fluid block bgc-l-g">
       <div class="container">
         <div class="row">
@@ -135,6 +129,4 @@
         </div>
       </div>
     </div>
-
-
-  </div>
+@stop

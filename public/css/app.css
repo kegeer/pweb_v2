@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(public/vendor/animate.css/animate.css);
 .icon-muying {
   background: url("../images/icons/icon-muying.png");
   background-repeat: no-repeat;
@@ -10925,6 +10926,10 @@ p.lead {
   }
 }
 
+.linkage {
+  padding: 6px 0;
+}
+
 body {
   background: #fff;
   font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
@@ -11066,46 +11071,6 @@ ul {
   outline: medium none;
 }
 
-#home .header {
-  background-color: #286B90;
-}
-
-#home .subheading {
-  color: #333;
-  background-color: #286B90;
-  padding: 150px 0;
-  padding-top: 74px;
-  background-attachment: local;
-  background-position: right 0px top 0px;
-  background-size: 45%;
-  background-repeat: no-repeat;
-  background-image: url("../images/bg-1.png");
-}
-
-#home .subheading h1, #home .subheading h2 {
-  color: #fff;
-}
-
-#home .subheading h2 {
-  margin-bottom: 50px;
-}
-
-#microbiome .header {
-  background-color: #286B90;
-}
-
-#microbiome .subheading {
-  color: #fff;
-  background-color: #286B90;
-  padding-top: 75px;
-  background-image: url("../images/intro-1.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom right;
-  background-position: right 40px center;
-  background-size: 45%;
-}
-
 .product {
   padding: 70px 0;
 }
@@ -11169,22 +11134,6 @@ ul {
 }
 
 /* pathogen page styles */
-#pathogen .header {
-  background-color: #286B90;
-}
-
-#pathogen .subheading {
-  color: #fff;
-  background-color: #286B90;
-  padding-top: 75px;
-  background-image: url("../images/pathogen-index.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom right;
-  background-position: right 40px center;
-  background-size: 45%;
-}
-
 .media-body h3 {
   font-size: 18px;
   font-weight: 400;
@@ -11253,7 +11202,8 @@ ul {
 .knowmore:hover {
   opacity: .8;
   color: #fff;
-  @inlcude ease-out-transition(.15s);
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
 }
 
 .outline {
@@ -11274,12 +11224,23 @@ ul {
 
 .subfooter {
   color: #fff;
-  background-color: #1a445c;
+  background-color: #3692c4;
   padding: 50px 0;
   background-size: contain;
   background-position: center 120px;
   background-image: url("../images/footer.png");
   background-repeat: no-repeat;
+}
+
+.subfooter h3, .subfooter h4 {
+  color: #fff;
+}
+
+.subfooter .btn {
+  background: #82CD31;
+  color: #fff;
+  margin: 0 10px;
+  margin-top: 30px;
 }
 
 .subfooter p {
@@ -11421,8 +11382,8 @@ ul {
 
 .step .circle {
   margin: 0 auto;
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   padding: 20px;
   background: #82CD31;
   border-radius: 50%;
@@ -11437,15 +11398,30 @@ ul {
 
 .bgi-step {
   background: #f9f9f9 url("../images/bgi-step.png") no-repeat scroll center 30px;
-  padding: 100px 0;
+  padding: 90px 0;
+  background-size: 60%;
+}
+
+@media (max-width: 991px) {
+  .bgi-step {
+    background-image: none;
+  }
 }
 
 .bgi-step.product-step {
   background: #82CD31 url("../images/bgi-step.png") no-repeat scroll center 30px;
+  padding: 90px 0;
+  background-size: 60%;
+}
+
+@media (max-width: 991px) {
+  .bgi-step.product-step {
+    background-image: none;
+  }
 }
 
 .bgi-step.product-step .step .circle {
-  background: #286B90;
+  background: #333;
 }
 
 .bgi-step.product-step .step h3 {
@@ -11453,21 +11429,6 @@ ul {
 }
 
 /* partner page styles */
-#partner .header {
-  background-color: #286B90;
-}
-
-#partner .subheading {
-  color: #fff;
-  background-color: #286B90;
-  padding-top: 75px;
-  background-image: url("../images/partner-index.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top 20% right;
-  background-size: 45%;
-}
-
 .row-double {
   position: relative;
   margin: 30px 0;
@@ -11540,7 +11501,7 @@ ul {
 .row-double .image .bg-image {
   position: absolute;
   top: 0;
-  height: 100%;
+  width: 100%;
 }
 
 .row-double .content {
@@ -11614,21 +11575,6 @@ ul {
 }
 
 /* hire page style */
-#hire .header {
-  background-color: #E25D36;
-}
-
-#hire .subheading {
-  color: #fff;
-  background-color: #E25D36;
-  padding-top: 75px;
-  background-image: url("../images/hire-index.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top 20% right;
-  background-size: 45%;
-}
-
 .toggle-view-custom {
   margin: 0;
   padding: 0;
@@ -11744,20 +11690,27 @@ h3.job-head i {
   margin-right: 24px;
 }
 
-#us .header {
-  background-color: #286B90;
+.hire-site li {
+  background: #e9e9e9;
+  padding: 16px;
+  margin: 24px 0;
 }
 
-#us .subheading {
+.hire-site li a {
+  color: #286B90;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.cv .btn {
+  background: #82CD31;
   color: #fff;
-  background-color: #286B90;
-  padding-top: 75px;
-  background-image: url("../images/pathogen-index.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom right;
-  background-position: right 40px center;
-  background-size: 45%;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.cv i {
+  margin-right: 12px;
 }
 
 .number {
@@ -11829,6 +11782,12 @@ h3.job-head i {
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  .contact iframe {
+    margin: 30px;
+  }
+}
+
 .contact a.outline {
   margin: 24px;
 }
@@ -11851,22 +11810,6 @@ ul.address li span {
 }
 
 /* product page */
-#baba .header {
-  background-color: #286B90;
-}
-
-#baba .subheading {
-  color: #fff;
-  background-color: #286B90;
-  padding-top: 75px;
-  background-image: url("../images/pathogen-index.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom right;
-  background-position: right 40px center;
-  background-size: 45%;
-}
-
 .product-feature {
   margin: 60px 0;
   display: block;
@@ -11923,17 +11866,30 @@ ul.address li span {
   margin-top: -24px;
 }
 
+.product-head h3 {
+  color: #333 !important;
+}
+
+.product-head p {
+  font-size: 18px;
+  color: #5c5c5c !important;
+}
+
 .product-intro h4 {
-  font-weight: 400;
-  line-height: 38px;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .product-intro p {
   color: #5c5c5c;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 32px;
 }
 
-.product-intro p a {
-  margin-top: 30px;
+.product-intro .btn {
+  background-color: #82CD31;
+  color: #fff;
 }
 
 @media (max-width: 971px) {
@@ -11946,6 +11902,325 @@ ul.address li span {
   #home .subheading {
     background-size: cover;
   }
+}
+
+@media (min-width: 768px) and (max-width: 971px) {
+  .container {
+    width: 820px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-weight: normal;
+  position: relative;
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+#wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-weight: 400;
+  color: #5c5c5c;
+  font-family: "Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  line-height: 22px;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+}
+
+p .intro-small {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  text-decoration: none !important;
+}
+
+img {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  display: inline-block !important;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+
+a:hover, a:focus {
+  color: #00b1f1;
+}
+
+.position-center-center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  display: inline-block;
+  padding: 2px 21px;
+  font-weight: normal;
+  font-size: 14px;
+  border-radius: 0;
+  font-family: "Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 1;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.btn-white {
+  background: #fff;
+  color: #ab4e52 !important;
+}
+
+.btn-white:hover {
+  background: #ab4e52;
+  color: #fff !important;
+}
+
+header {
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+  background: #fff;
+  padding: 40px 0;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff', GradientType=0 );
+}
+
+.navbar {
+  padding: 30px 0 30px 0;
+}
+
+.navbar .brand img {
+  padding-top: 11px;
+}
+
+.navbar li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.navbar li a:hover, .navbar li a:focus {
+  background-color: transparent;
+  opacity: 0.8;
+  text-decoration: none;
+  outline: medium none;
+}
+
+.navbar .nav-btn {
+  padding: 10px 27px !important;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.navbar .nav-btn:hover {
+  color: #fff;
+  background: #286B90;
+  opacity: 0.9;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  left: 0;
+  background-color: #333;
+  color: #286B90;
+}
+
+.navbar-nav > li > .dropdown-menu .divider {
+  background-color: #fff;
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-header {
+  color: #ededed;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+}
+
+.bg-head {
+  text-align: center;
+}
+
+.bg-head h3 {
+  margin-bottom: 30px;
+  margin-top: 80px;
+  font-size: 38px;
+  color: #fff;
+}
+
+.bg-head p {
+  margin: 0 auto;
+  max-width: 590px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.bg-head .btn {
+  background: #82CD31;
+  color: #fff;
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.bg-head .btn.btn-trans {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.dark-layout header {
+  background: -webkit-linear-gradient(top, black 0%, transparent 100%);
+  background: linear-gradient(to bottom, black 0%, transparent 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff', GradientType=0 );
+}
+
+.dark-layout header .navbar li a {
+  color: #fff;
+}
+
+.dark-layout header h1, .dark-layout header h2, .dark-layout header h3, .dark-layout header h4, .dark-layout header h5, .dark-layout header h6 {
+  color: #fff !important;
+}
+
+.dark-layout header p {
+  color: #ababab;
+}
+
+.home-head {
+  background: url("../images/bg-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+.us-head {
+  background: url("../images/us-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.microbiome-head {
+  background: url("../images/microbiome-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.pathogen-head {
+  background: url("../images/pathogen-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 400px;
+}
+
+.hire-head {
+  background: url("../images/hire-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.partner-head {
+  background: url("../images/partner-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.baba-head {
+  background: url("../images/baba-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 480px;
+}
+
+.baby-head {
+  background: url("../images/baby-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+}
+
+.obesity-head {
+  background: url("../images/obesity-head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
 }
 
 /*# sourceMappingURL=app.css.map */

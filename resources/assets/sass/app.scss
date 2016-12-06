@@ -12,9 +12,12 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "public/vendor/font-awesome/scss/font-awesome";
+@import "public/vendor/animate.css/animate.css";
 
 // pages
 
 @import "global";
 @import "base";
 @import "responsive";
+@import "extra";
+@import "head";
