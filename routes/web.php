@@ -45,6 +45,3 @@ Route::get('/baby', function() {
 Route::get('/obesity', function() {
     return view('pages.mb.obesity');
 });
-Route::get('/ditu', function() {
-    return view('pages.ditu');
-});

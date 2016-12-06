@@ -43,8 +43,8 @@ ul {
   padding: 0;
 }
 .call-img {
-    max-width: 80%;
-    max-height: 100%;
+    padding:0 20px;
+    width:50%;
 }
 
 .call-img2 {
@@ -163,6 +163,7 @@ ul {
     }
   }
 }
+
 .card {
   background-color: #fff;
   border: 1px solid #eee;
@@ -199,35 +200,86 @@ ul {
   }
 }
 /* index feature section */
+.intro {
+  border-bottom:1px solid #e2edf6;
+  overflow: hidden;
+  padding:75px 0;
+  .intro-content {
+    .intro-title {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 35px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 300;
+      padding: 0;
+    }
+    .intro-link {
+      background: rgba(42, 134, 225, .1);
+      border-radius:100px;
+      display: inline-block;
+      font-size:14px;
+      line-height:20px;
+      font-weight:500;
+      margin:30px 0 40px -2px;
+      padding:10px 16px 10px 48px;
+      position: relative;
+      @include bg-ease-out(200,0)
+    }
+  }
+  .intro-image {
+    padding:0 20px;
+    width:50%;
+    .intro-img-1 {
+      display: block;
+      width:200%;
+    }
+  }
+}
+.no-b-b {
+    border-bottom:none;
+  }
+.row-reverse {
+  .intro-content {
+    float: right;
+  }
+  .intro-image {
+    float: left;
+  }
+}
+
 .feature {
   padding: 100px 0;
   position: relative;
-  .icon {
-    display: inline-block;
-    font-size: 50px;
-    text-decoration: none;
-    @include ease-transition(.3s, 0s);
-  }
-  h3 {
-    font-size: 18px;
-    font-weight: 400;
-    color: $gray-base;
-  }
-  p {
-    font-size: 16px;
-    font-weight: 300;
-    color: $gray-l-2;
-  }
-  &:after {
-    content: "";
-    display: block;
-    height: 1px;
-    margin-top: 1px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background: url('../images/icons/icon-dash.png');
-    background-repeat: repeat-x;
+  .media-box {
+    width: 80%;
+    background-color: #eee;
+    border: 1px solid #eee;
+    text-align: center;
+    @include border-radius(4px);
+    padding: 60px;
+    margin: 10px auto;
+    cursor: pointer;
+    .icon {
+      height: 120px;
+      width: 120px;
+      padding: 10px;
+      margin: 0 auto 20px;
+    }
+    h3 {
+      color: $gray-base;
+      font-weight: 600px;
+      font-size: 18px;
+      margin-top: 24px;
+    }
+    p {
+      color: $gray-l-1;
+      font-weight: 300;
+      font-size: 14px;
+      margin-top: 12px;
+    }
   }
 }
 
@@ -266,27 +318,53 @@ ul {
 
 .subfooter {
   color: #fff;
-  background-color: lighten($c-s,13%);
+  background-color: $c-t;
   padding: 50px 0;
   background-size: contain;
   background-position: center 120px;
   background-image: url('../images/footer.png');
   background-repeat: no-repeat;
-  h3, h4 {
+  .footer-link {
+    h4 {
       color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    ul{
+      li {
+        margin-bottom: 10px;
+        a {
+          color: #f9f9f9;
+          font-size: 14px;
+        }
+      }
+    }
   }
-  .btn {
-      background: $c-t;
-      color: #fff;
-      margin: 0 10px;
-      margin-top: 30px;
-  }
-  p {
-    margin-top: 30px;
+  .footer-content {
+    .footer-content-image {
+      width: 100%;
+      position: relative;
+      margin-bottom: 20px;
+      img {
+        width: 80%;
+      }
+    }
+    p {
+      color: #f9f9f9;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      i {
+        color: $c-p;
+        margin-right: 14px;
+      }
+    }
   }
 }
 .footer {
-  background: $c-s;
+  background: darken($c-t, 16%);
   p {
     padding: 0;
     margin: 20px 0;
@@ -508,6 +586,12 @@ ul {
     padding: 6%;
     background-color: #fff;
     color: $gray-base;
+    .btn {
+      color: #fff;
+      background-color: $c-t;
+      margin: 0 10px;
+      margin-top: 30px;
+    }
   }
 }
 
@@ -676,6 +760,7 @@ h3.job-head {
         background: #e9e9e9;
         padding: 16px;
         margin: 24px 0;
+        text-align: center;
         a {
             color: $c-s;
             font-weight: 100;
@@ -754,6 +839,7 @@ h3.job-head {
   }
 }
 .contact {
+  padding: 4%;
   iframe {
     border: none;
     width: 100%;
@@ -761,19 +847,17 @@ h3.job-head {
         margin: 30px;
     }
   }
-  a.outline {
-    margin: 24px;
-  }
 }
 
 ul.address {
   padding: 100px 0 30px;
   li {
-    margin: 24px;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 16px;
     span {
       color: $c-s;
-      font-weight: 500;
+      font-weight: 600;
+      font-size: 18px;
       margin-right: 18px;
       display: inline-block;
       width: 100px;
@@ -856,5 +940,7 @@ ul.address {
   .btn {
     background-color: $c-t;
     color: #fff;
+    margin: 0 10px;
+    margin-top: 30px;
   }
 }

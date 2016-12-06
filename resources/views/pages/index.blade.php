@@ -11,84 +11,87 @@
 			</div>
 		</div>
 	</section>
-	<div class="container-fluid block feature bgc-l-g">
+	<div class="container-fluid block feature">
       <div class="container">
         <div class="row feature-section">
           <div class="col-sm-4 text-center">
-            <div class="media-body">
+            <div class="media-box">
               <span class="icon"><img src="/images/icons/feature-1.png"></span>
               <h3>数据</h3>
-              <p class="text-muted">数十万份样品数据</p>
+              <p class="text-muted">十万份样品数据</p>
             </div>
           </div>
           <div class="col-sm-4 text-center">
-            <div class="media-body">
+            <div class="media-box">
               <span class="icon"><img src="/images/icons/feature-2.png"></span>
               <h3>计算</h3>
-              <p class="text-muted">数万个计算节点</p>
+              <p class="text-muted">万个计算节点</p>
             </div>
           </div>
           <div class="col-sm-4 text-center">
-            <div class="media-body">
+            <div class="media-box">
               <span class="icon"><img src="/images/icons/feature-3.png"></span>
               <h3>解读</h3>
-              <p class="text-muted">数万小时数据积累</p>
+              <p class="text-muted">万小时数据积累</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid block divider">
+    <div class="container-fluid block">
       <div class="container">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-4">
-            <h3>健康微生态</h3>
-            <p>肠道菌群在人体健康中扮演重要角色</p>
-            <p>无论是嗷嗷待哺的婴儿，还是正值壮年的你，亦或是年越古稀的老人，每个人都有独特的肠型，通过我们的检测，你可以随时掌握你的健康情况</p>
-            <p></p>
+        <div class="row intro">
+          <div class="col-md-6 intro-content">
+            <h3 class="intro-title">健康微生态</h3>
+            <p>基于微生物的疾病预防检测</p>
+            <p>产品线涵盖婴幼儿、孕妇、白领，以及患有各种慢性病的人群，通过检测可以快熟全面了解您的健康状态，为您的健康保驾护航</p>
+						<a href="/microbiome" class="intro-link"><i class="fa fa-arrow-right"></i>
+                了解更多关于健康微生态的产品
+            </a>
           </div>
-          <div class="col-md-7 text-center">
-            <img src="/images/intro-1.png" class="call-img" style="max-width: 400px;">
+          <div class="col-md-6">
+						<div class="intro-image">
+							<img src="/images/intro-1.png" class="intro-image-1" style="max-width: 400px;">
+						</div>
           </div>
         </div>
-      </div>
 
-    </div>
-
-    <div class="container-fluid block divider">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 text-center">
-            <img src="/images/intro-2.png" class="call-img" style="max-width: 400px;">
+				<div class="row intro row-reverse">
+          <div class="col-md-6 intro-content">
+            <h3 class="intro-title">营养微生态</h3>
+            <p>基于微生物组和代谢组学的健康指导</p>
+            <p>通过微生物和代谢资料能够对您的营养膳食提供一份精准的肠道菌群调节方案，配合其他合适方式，能够快熟方便的改善您的健康状态</p>
+						{{-- <a href="/" class="intro-link disabled"><i class="fa fa-arrow-right"></i>
+                了解更多关于营养微生态的产品
+            </a> --}}
           </div>
-          <div class="col-md-5">
-            <h3>营养微生态</h3>
-            <p>肠道菌群在人体健康中扮演重要角色</p>
-            <p>无论是嗷嗷待哺的婴儿，还是正值壮年的你，亦或是年越古稀的老人，每个人都有独特的肠型，通过我们的检测，你可以随时掌握你的健康情况</p>
-            <p></p>
+          <div class="col-md-6">
+						<div class="intro-image">
+							<img src="/images/intro-2.png" class="intro-image-1" style="max-width: 400px;">
+						</div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container-fluid block divider">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-4">
-            <h3>医疗微生态</h3>
+				<div class="row intro">
+          <div class="col-md-6 intro-content">
+            <h3 class="intro-title">临床微生态</h3>
             <p>基于高通量测序平台的病原微生物检测系统</p>
             <p>无需培养，快速，全面检测脑脊液样品或血液样品中的未知细菌、真菌、病毒、寄生虫等病原微生物。有助于明确诊断，精准治疗</p>
-            <p></p>
+						<a href="/pathogen" class="intro-link"><i class="fa fa-arrow-right"></i>
+                了解更多关于临床微生态的产品
+            </a>
           </div>
-          <div class="col-md-7 text-center">
-            <img src="/images/intro-3.png" class="call-img" style="max-width: 400px;">
+          <div class="col-md-6">
+						<div class="intro-image">
+							<img src="/images/intro-3.png" class="intro-image-1" style="max-width: 400px;">
+						</div>
           </div>
         </div>
       </div>
+
     </div>
+
 
     <div class="container-fluid block">
       <div class="container">

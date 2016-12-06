@@ -12,17 +12,15 @@
 <div class="container-fluid bgc-l-g block">
 	<div class="container">
 		<div class="row text-center">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1 intro-head">
 				<p>健康微生态关注人体健康相关的微生物及其功能，综合评估基因、微生物、饮食、生活方式、生理功能、药物、环境、社会活动等构成人体健康生态系统的关键因素，塑造健康生命、优质生活、管控疾病的良性循环健康状态，实现精准检测与个体化差异管理</p>
-				<p>
-					<a class="knowmore" href="/us">了解更多</a>
-				</p>
+				<a class="btn" href="#microbiome-feature">了解更多</a>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid block">
+<div class="container-fluid block" id="microbiome-feature">
 	<div class="container">
 		<div class="row feature-section">
 			<div class="col-sm-2 text-center">

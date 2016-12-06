@@ -18,9 +18,7 @@
            <div class="col-md-6 content">
              <h2>科研合作</h2>
              <p>谱元科技专注于微生物检测领域，公司骨干成员在《自然》、《科学》、《新英格兰医学杂志》等知名刊物上发表过数十篇高水平的SCI论文，并拥有数项国内外技术发明专利。</p>
-             <p>
-               <a href="/us" class="outline text-gray">了解更多</a>
-             </p>
+               <a href="/us" class="btn">了解更多</a>
            </div>
          </div>
 
@@ -31,9 +29,7 @@
            <div class="col-md-6 content">
              <h2>商务合作</h2>
              <p>如果您有现成的健康产品线，或许想给用户更加详实的管理，我们提供标准的肠道菌群研究结果，并且提供多方位的个性化定制，以供您可以无缝的嵌入到现有的产品线。</p>
-             <p>
-               <a href="/us" class="outline text-gray">了解更多</a>
-             </p>
+               <a href="/us" class="btn">了解更多</a>
            </div>
          </div>
 

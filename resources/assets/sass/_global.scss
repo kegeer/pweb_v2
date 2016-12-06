@@ -43,45 +43,25 @@ p.lead {
   }
 }
 
-// navbar
-// .ownmenu {
-//   padding: 0;
-//   margin: 0;
-//   list-style: none;
-//   li {
-//     display: inline-block;
-//     float: left;
-//   }
-//   a {
-//     @include transition(.3s, linear);
-//     outline: none;
-//     z-index: 10;
-//   }
-//   ul {
-//     &.dropdown {
-//       li {
-//         clear: both;
-//         width: 100%;
-//         text-align: left;
-//         a {
-//           width: 100%;
-//           padding: 12px 24px 12px;
-//           display: inline-block;
-//           float: left;
-//           clear: both;
-//           text-decoration: none;
-//           color: #999;
-//           @include box-sizing(border-box);
-//         }
-//         &:hover {
-//           > a {
-//             color: #fff !important;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 .linkage {
   padding: 6px 0;
+}
+
+.intro-head {
+  h3 {
+    font-weight: 24px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+  .btn {
+    color: #fff;
+    background-color: $c-t;
+    margin: 0 10px;
+    margin-top: 30px;
+  }
 }

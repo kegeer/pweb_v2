@@ -9,8 +9,22 @@
 			</div>
 		</div>
 	</section>
+	<div class="container-fluid bgc-l-g block">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="text-center intro-head">
+					<p>
+						基于高通量测序平台的检测系统，分析脑脊液及血液样本中的游离DNA，检测未知病原微生物包括：细菌、病毒、真菌、寄生虫等
+					</p>
+					<a class="btn" href="#pathogen-feature">了解更多</a>
+				</div>
+			</div>
+		</div>
 
-	<div class="container-fluid block">
+	</div>
+</div>
+	<div class="container-fluid block" id="pathogen-feature">
       <div class="container">
          <div class="col-sm-4 text-center">
           <div class="media-body">
@@ -36,20 +50,6 @@
       </div>
     </div>
 
-
-    <div class="container-fluid bgc-l-g block">
-    <div class="container">
-      <div class="text-center">
-        <h3>产品简介</h3>
-        <p>
-					基于高通量测序平台的检测系统，分析脑脊液及血液样本中的游离DNA，检测未知病原微生物包括：细菌、病毒、真菌、寄生虫等
-        </p>
-	</div>
-      <div class="row">
-
-      </div>
-    </div>
-  </div>
   <div class="container-fluid block">
     <div class="container">
       <div class="row pathogen-product">
