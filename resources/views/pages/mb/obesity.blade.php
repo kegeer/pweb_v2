@@ -4,7 +4,7 @@
 	<section class="bg-head obesity-head">
 		<div class="container">
 			<div class="position-center-center product-head">
-				<h3>体重管理检测</h3>
+				<h3>健康体重管理方案</h3>
 				<p>精准的肥胖基因检测+肠道菌群代谢水平检测+个性化管理方案</p>
 			</div>
 		</div>
@@ -24,37 +24,37 @@
 
     <div class="container-fluid block" id="obesity-info">
       <div class="container">
-        <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-right">
-          <div class="product-feature">
-              <h5>精准预测肥胖风险</h5>
-              <p class="m-b-0 text-muted">
-                肠道菌群+人自身基因组检测，准确预测肥胖风险
-              </p>
-            </div>
-            <div class="product-feature m-t-120">
-                <h5>评估肥胖相关疾病风险</h5>
-                <p class="m-b-0 text-muted">
-                肥胖是多种代谢性疾病的源头，通过菌群分析，评估相关疾病风险
-                </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-lg-push-1 col-md-4">
-            <img src="/images/products/obesity.png" alt="" class="img-responsive img-intro">
-          </div>
-          <div class="col-lg-3 col-lg-push-1 col-md-4 md-text-left">
-            <div class="product-feature">
-                <h5>精准管理体重，健康减重</h5>
-                <p class="m-b-0 text-muted">
-                  科学地制定个性化健康管理方案，精准、健康减重
-                </p>
-            </div>
-            <div class="product-feature">
-                <h5>肠道免疫功能</h5>
-                <p class="m-b-0 text-muted">
-                  了解肠道菌群免疫水平
-                </p>
-            </div>
-        </div>
+				<h3 class="text-center">
+					从肠道出发，全方位了解你的健康
+				</h3>
+
+				<div class="row box-list">
+						<a class="box-item border-top-p item-3" href="#">
+							<h5>精准预测肥胖风险</h5>
+							<p>肠道菌群+人自身基因组检测，准确预测肥胖风险</p>
+						</a>
+
+						<a class="box-item border-top-s item-3" href="#">
+							<h5>评估相关疾病风险</h5>
+							<p>肥胖是多种代谢性疾病的源头，通过菌群分析，评估相关疾病风险</p>
+						</a>
+
+						<a class="box-item border-top-t item-3" href="#">
+							<h5>精准管理体重</h5>
+							<p>科学地制定个性化健康管理方案，精准、健康减重</p>
+						</a>
+				</div>
+				<div class="row product-image">
+					<div class="divider">
+						<div class="col-md-4 col-md-offset-4">
+							<i>
+								<img src="/images/products/obesity.png" alt="" class="img-responsive">
+							</i>
+						</div>
+					</div>
+				</div>
+
+
       </div>
     </div>
 
@@ -121,7 +121,7 @@
                   <img src="/images/obesity-suit.jpg" class="bg-image">
               </div>
               <div class="col-md-6 content">
-                  <h2>适用领域以及症状</h2>
+                  <h2>适用人群以及症状</h2>
                   <p class="text-white-dark m-b-15">
                       以下情况推荐检测
                   </p>

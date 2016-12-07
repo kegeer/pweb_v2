@@ -187,13 +187,15 @@ section{
 	h3 {
 		margin-bottom: 30px;
 		margin-top: 80px;
-		font-size: 38px;
+		font-size: 55px;
+		font-weight: 600;
 		color: #fff;
 	}
 	p {
 		margin: 0 auto;
 		max-width: 590px;
-		font-size: 18px;
+		font-size: 24px;
+		font-weight: 300;
 		color: #fff;
 	}
 	.btn {
@@ -220,4 +222,73 @@ section{
 			color: #ababab;
 		}
 	}
+}
+
+p.text-cta {
+	font-weight: 600;
+  left: 0;
+  position: relative;
+  text-decoration: none;
+	&.arrow {
+		&::after {
+			font-family: 'FontAwesome';
+			content: "";
+			-webkit-transition: all 125ms ease-in-out;
+			transition: all 125ms ease-in-out;
+			display: inline-block;
+			left: 5px;
+			position: relative;
+			text-decoration: none !important;
+		}
+	}
+}
+a.box-item {
+	-webkit-transition: transform 0.25s;
+	-webkit-transition: -webkit-transform 0.25s;
+	transition: -webkit-transform 0.25s;
+	transition: transform 0.25s;
+	transition: transform 0.25s, -webkit-transform 0.25s;
+	border-radius: 4px;
+	background: #ffffff;
+	border: 1px solid #ededee;
+	display: block;
+	padding: 10px 15px;
+	margin-top: 30px;
+	cursor: pointer;
+	&:hover {
+		-webkit-transform: translate(0, -2px);
+		transform: translate(0, -2px);
+		text-decoration: none;
+		.arrow {
+			&::after {
+				left: 8px;
+				text-decoration: none !important;
+			}
+		}
+	}
+}
+.box-list {
+	a.box-item {
+		float: left;
+		margin-right: 1%;
+		min-height: 190px;
+		@media (min-width: 768px) {
+			margin-right: 1%;
+			min-height: 190px;
+			padding: 15px 20px;
+		}
+		&.item-2 {
+			width: 49%;
+		}
+		&.item-3 {
+			width: 32%;
+		}
+		&.item-4 {
+			width: 24%;
+		}
+	}
+}
+
+.product-image {
+	margin-top: 120px;
 }

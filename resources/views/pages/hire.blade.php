@@ -3,7 +3,7 @@
 <section class="bg-head hire-head">
 	<div class="container">
 		<div class="position-center-center">
-			<h3>欢迎有志之士加入我们</h3>
+			<h3 class="text-gray">欢迎有志之士加入我们</h3>
 		</div>
 	</div>
 </section>
@@ -107,18 +107,10 @@
 				</ul>
 			</div>
 			<div class="col-md-3">
-				<h3>其他招聘渠道</h3>
-				<ul class="hire-site">
-					<li>
-						<a href="www.zhaopin.com">智联招聘</a>
-					</li>
-					<li>
-						<a href="www.liepin.com">猎聘网</a>
-					</li>
-				</ul>
-				<div class="cv">
-					<a href="mailto:hr@microbiota.com" class="btn"><i class="fa fa-envelope"></i>投递简历</a>
-				</div>
+        <ul class="hire-info">
+          <li><span>联系电话：</span>0755-22361766</li>
+          <li><span>邮箱：</span>hr@microbiota.cn</li>
+        </ul>
 			</div>
 		</div>
 	</div>

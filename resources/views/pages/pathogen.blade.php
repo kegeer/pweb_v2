@@ -14,8 +14,9 @@
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="text-center intro-head">
+					<h3>病原微生物检测</h3>
 					<p>
-						基于高通量测序平台的检测系统，分析脑脊液及血液样本中的游离DNA，检测未知病原微生物包括：细菌、病毒、真菌、寄生虫等
+						基于高通量测序技术，分析脑脊液或血液样本中的游离DNA，可同时鉴定样本中的多种可疑病原微生物，用于协助临床医师进一步分析诊断，检测范围包括细菌、病毒、真菌、寄生虫、古菌、支原体、衣原体、立克次氏体及螺旋体等在内的一万多种基因组序列已知的微生物
 					</p>
 					<a class="btn" href="#pathogen-feature">了解更多</a>
 				</div>
@@ -37,14 +38,14 @@
           <div class="media-body">
             <span class="icon"><img src="/images/icons/p-f-2.png"></span>
             <h3>灵敏检测</h3>
-            <p class="text-muted">50 copies/ml的最低检测线，灵敏度高出市场同类一倍</p>
+            <p class="text-muted">50 copies/ml 的最低检出限</p>
           </div>
         </div>
          <div class="col-sm-4 text-center">
           <div class="media-body">
             <span class="icon"><img src="/images/icons/p-f-3.png"></span>
             <h3>全面覆盖</h3>
-            <p class="text-muted">可检测多于2000种序列已知的病源微生物</p>
+            <p class="text-muted">可同时检测10000余种序列已知微生物</p>
           </div>
         </div>
       </div>
@@ -59,12 +60,15 @@
               <a href="#brain" data-toggle="tab" aria-expanded="true">
                 <div class="icon lg icon-brain"></div>
                 <div class="icon dk icon-brain-dk"></div>
+								<h5 class="text-center">脑元谱</h5>
               </a>
+
             </li>
             <li>
               <a href="#blood" data-toggle="tab" aria-expanded="true">
                 <div class="icon lg icon-blood"></div>
                 <div class="icon dk icon-blood-dk"></div>
+								<h5 class="text-center">血元谱</h5>
               </a>
             </li>
           </ul>
@@ -73,12 +77,13 @@
       <div class="row">
         <div class="col-md-12">
           <div class="tab-content">
-            <div class="row tab-pane active" id="brain">
+            <div class="row tab-pane active border-primary" id="brain">
               <div class="col-md-6">
                 <div class="product-content">
                   <div class="head">
                     <span class="icon-brain-intro"></span>
-                    <h3>脑元谱</h3>
+                    <h3>脑脊液病原菌检测</h3>
+										{{-- <h6>脑脊液病原微生物检测</h6> --}}
                     <p><span>检测</span>感染性脑膜炎、脑炎</p>
                   </div>
                   <p>颅内感染疾病可能由于细菌、病毒、真菌、寄生虫等引起，脑脊液的快速微生物检测可以帮助医护人员明确引起感染的病原微生物，早期诊断和治疗，可减少并发症的发生</p>
@@ -107,12 +112,12 @@
               </div>
             </div>
 
-            <div class="row tab-pane" id="blood">
+            <div class="row tab-pane border-primary" id="blood">
               <div class="col-md-6">
                 <div class="product-content">
                   <div class="head">
                     <span class="icon-blood-intro"></span>
-                    <h3>血元谱</h3>
+                    <h3>血液病原菌检测</h3>
                     <p><span>检测</span>血流感染</p>
                   </div>
                   <p>直接由血流感染引起的死亡率达16%-40%，而ICU患者甚至高达50%，统计表明严重败血症患者每延迟一小时使用抗生素将增加8%的死亡率，快速病原微生物检测可为病人赢取更多的时间</p>

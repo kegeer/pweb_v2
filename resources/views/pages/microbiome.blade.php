@@ -23,6 +23,7 @@
 <div class="container-fluid block" id="microbiome-feature">
 	<div class="container">
 		<div class="row feature-section">
+			<h5 class="text-center m-b-60">我们的检测与管理优点</h5>
 			<div class="col-sm-2 text-center">
 				<div class="media-body">
 					<img src="/images/icons/m-f-1.png" alt="">

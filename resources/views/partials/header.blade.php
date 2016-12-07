@@ -15,13 +15,12 @@
 					<li>
 						<a href="/">主页</a>
 					</li>
-					<li>
-						<a href="/us">我们</a>
-					</li>
 					<li class="dropdown">
-						<a href="/microbiome" class="dropdown-toggle" data-toggle="dropdown" role="button" aroa-haspopup="true" aria-expanded="false">肠道微生态 <span class="caret"></span></a>
+						<a href="/microbiome" class="dropdown-toggle" data-toggle="dropdown" role="button" aroa-haspopup="true" aria-expanded="false">产品 <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="linkage"><a href="/microbiome">简介</a></li>
+							<li class="linkage"><a href="/microbiome">健康微生态</a></li>
+							<li class="linkage"><a href="#" class="disabled">营养微生态</a></li>
+							<li class="linkage"><a href="/pathogen">临床微生态</a></li>
 							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">产品</li>
 							<li class="linkage"><a href="/baba">粑粑说</a>	</li>
@@ -30,7 +29,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="/pathogen">医疗微生态</a>
+						<a href="/us">我们</a>
 					</li>
 					<li>
 						<a href="/partner">合作</a>
