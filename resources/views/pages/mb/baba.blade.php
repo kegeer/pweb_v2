@@ -55,7 +55,7 @@
           <div class="col-md-2">
             <div class="step">
               <div class="circle">
-                <div class="icon-p-s-1"></div>
+                <div class="icon-p-i-1"></div>
               </div>
               <h3>咨询和购买</h3>
             </div>
@@ -63,7 +63,7 @@
           <div class="col-md-2">
             <div class="step">
               <div class="circle">
-                <div class="icon-p-s-2"></div>
+                <div class="icon-p-i-2"></div>
               </div>
               <h3>样品采集</h3>
             </div>
@@ -71,7 +71,7 @@
           <div class="col-md-2">
             <div class="step">
               <div class="circle">
-                <div class="icon-p-s-3"></div>
+                <div class="icon-p-i-3"></div>
               </div>
               <h3>样品寄送</h3>
             </div>
@@ -79,7 +79,7 @@
           <div class="col-md-2">
             <div class="step">
               <div class="circle">
-                <div class="icon-p-s-4"></div>
+                <div class="icon-p-i-4"></div>
               </div>
               <h3>样品处理</h3>
             </div>
@@ -87,7 +87,7 @@
           <div class="col-md-2">
             <div class="step">
               <div class="circle">
-                <div class="icon-p-s-5"></div>
+                <div class="icon-p-i-5"></div>
               </div>
               <h3>序列解析</h3>
             </div>
@@ -95,7 +95,7 @@
           <div class="col-md-2">
             <div class="step">
               <div class="circle">
-                <div class="icon-p-s-6"></div>
+                <div class="icon-p-i-6"></div>
               </div>
               <h3>报告出具</h3>
             </div>

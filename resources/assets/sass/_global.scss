@@ -11,6 +11,9 @@
 .text-gray {
   color: #333 !important;
 }
+.text-gray-l-1 {
+  color: $gray-l-1 !important;
+}
 .text-primary {
   color: $c-p !important;
 }
@@ -85,7 +88,6 @@ p.lead {
 .m-b-40 { margin-bottom: 40px;}
 .m-b-50 { margin-bottom: 50px;}
 .m-b-60 { margin-bottom: 60px;}
-
 .border-primary {
   border: 1px dashed $c-p;
   padding: 6%;

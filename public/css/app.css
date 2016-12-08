@@ -136,6 +136,54 @@
   height: 40px;
 }
 
+.icon-p-i-1 {
+  background: url("../images/icons/p-i-1.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-p-i-2 {
+  background: url("../images/icons/p-i-2.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-p-i-3 {
+  background: url("../images/icons/p-i-3.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-p-i-4 {
+  background: url("../images/icons/p-i-4.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-p-i-5 {
+  background: url("../images/icons/p-i-5.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-p-i-6 {
+  background: url("../images/icons/p-i-6.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -10884,6 +10932,10 @@ button.close {
   color: #333 !important;
 }
 
+.text-gray-l-1 {
+  color: #5c5c5c !important;
+}
+
 .text-primary {
   color: #26A05f !important;
 }
@@ -11682,7 +11734,7 @@ ul {
 .row-double .image .bg-image {
   position: absolute;
   top: 0;
-  width: 100%;
+  height: 100%;
 }
 
 .row-double .content {
@@ -12309,6 +12361,41 @@ header {
 
 .navbar-nav > li > .dropdown-menu .dropdown-header {
   color: #ededed;
+}
+
+.dropdown-sub-toggle i {
+  margin-left: 12px;
+}
+
+.dropdown-sub-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  display: none;
+  background-color: #262626;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.dropdown-sub-menu li.dropdown-sub-header {
+  padding: 0;
+}
+
+.dropdown-sub-menu li a {
+  padding-right: 0;
+}
+
+.dropdown-sub-menu .sub-linkage {
+  padding: 8px 12px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-sub:hover .dropdown-sub-menu {
+  display: block;
 }
 
 section {

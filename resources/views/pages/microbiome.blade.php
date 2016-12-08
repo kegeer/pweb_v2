@@ -112,6 +112,19 @@
 						</div>
 					</a>
 				</div>
+				<div class="col-sm-4">
+					<a href="#">
+						<div class="card">
+							<div>
+								<img src="/images/products/mum-dark.png" alt="" class="avatar">
+							</div>
+							<div>
+								<h5>孕fen说</h5>
+								<p>孕期营养与疾病风险检测</p>
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 
@@ -120,19 +133,19 @@
             <span class="fa fa-gear"></span>
             亚健康人群健康
           </h2>
-			<p>心血管疾病、血糖异常、肥胖是现代亚健康人士健康的头号杀手，埋下各类慢性疾病隐患，通过解析肠道微生态功能，并综合评估个人基因、饮食、行为、药物等多方位信息，帮助预防、管理慢病</p>
+			<p>亚健康是目前困扰都市青年最大的问题，为以后的生活埋下了各种隐患。通过解析肠道微生态功能，并综合评估个人基因、饮食、行为、药物等多方位信息，帮助预防、管理慢病</p>
 		</div>
 		<div class="product-content">
 			<div class="row listing">
 				<div class="col-sm-4">
-					<a href="/obesity">
+					<a href="#">
 						<div class="card">
 							<div>
-								<img src="/images/products/obesity.png" alt="" class="avatar">
+								<img src="/images/products/more.png" alt="" class="avatar">
 							</div>
 							<div>
-								<h5>健康体重精准管理方案</h5>
-								<p>体重管理解决方案</p>
+								<h5>敬请期待</h5>
+								<p>期待我们更多的检测产品</p>
 							</div>
 						</div>
 					</a>

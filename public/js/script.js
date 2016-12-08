@@ -6,10 +6,10 @@ $(document).ready(function(){
 
     if (text.is(':hidden')) {
       text.slideDown('10');
-      $(this).children('.ui-accordion-header').addClass('ui-accordion-header-active');    
+      $(this).children('.ui-accordion-header').addClass('ui-accordion-header-active');
     } else {
       text.slideUp('10');
-      $(this).children('.ui-accordion-header').removeClass('ui-accordion-header-active');   
+      $(this).children('.ui-accordion-header').removeClass('ui-accordion-header-active');
     }
 
   });
