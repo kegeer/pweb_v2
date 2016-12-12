@@ -26,7 +26,6 @@
 									<li class="sub-linkage dropdown-sub-header">产品</li>
 									<li class="sub-linkage"><a href="/baba">粑粑说</a>	</li>
 									<li class="sub-linkage"><a href="/baby">婴fen说</a></li>
-									<li class="sub-linkage"><a href="/obesity">体重健康管理</a></li>
 								</ul>
 							</li>
 							<li class="linkage"><a href="#" class="text-gray-l-1">营养微生态</a></li>
