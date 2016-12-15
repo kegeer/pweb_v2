@@ -42,6 +42,6 @@ Route::get('/baba', function() {
 Route::get('/baby', function() {
     return view('pages.mb.baby');
 });
-Route::get('/obesity', function() {
-    return view('pages.mb.obesity');
-});
+// Route::get('/obesity', function() {
+//     return view('pages.mb.obesity');
+// });

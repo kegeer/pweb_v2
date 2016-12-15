@@ -23,7 +23,7 @@
         addMapControl();//向地图添加控件
         addMarker();//向地图中添加marker
     }
-    
+
     //创建地图函数：
     function createMap(){
         var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
@@ -31,7 +31,7 @@
         map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
         window.map = map;//将map变量存储在全局
     }
-    
+
     //地图事件设置函数：
     function setMapEvent(){
         map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
@@ -39,7 +39,7 @@
         map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
         map.enableKeyboard();//启用键盘上下左右键移动地图
     }
-    
+
     //地图控件添加函数：
     function addMapControl(){
         //向地图中添加缩放控件
@@ -52,7 +52,7 @@
   var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
   map.addControl(ctrl_sca);
     }
-    
+
     //标注点数组
     var markerArr = [{title:"谱元科技有限公司",content:"深圳市龙华新区五和大道锦绣科学园8栋西区五楼",point:"114.079869|22.713737",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
      ];
@@ -74,7 +74,7 @@
                         color:"#333",
                         cursor:"pointer"
             });
-      
+
       (function(){
         var index = i;
         var _iw = createInfoWindow(i);
@@ -109,7 +109,7 @@
         var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
         return icon;
     }
-    
+
     initMap();//创建和初始化地图
 </script>
 </html>

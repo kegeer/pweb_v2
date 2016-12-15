@@ -20,6 +20,6 @@ require('laravel-elixir-vue-2');
 // });
 elixir((mix) => {
   mix.copy('./public/vendor/font-awesome/fonts/', 'public/fonts');
-    mix.sass('app.scss')
-       .webpack('app.js');
+    // mix.sass('app.scss')
+      mix.webpack('app.js');
 });
