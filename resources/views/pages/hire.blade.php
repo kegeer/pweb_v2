@@ -3,7 +3,7 @@
 <section class="bg-head hire-head">
 	<div class="container">
 		<div class="position-center-center">
-			<h3 class="text-gray">欢迎有志之士加入我们</h3>
+			<h3>招贤纳士</h3>
 		</div>
 	</div>
 </section>

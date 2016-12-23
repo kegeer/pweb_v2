@@ -12,7 +12,6 @@
 </section>
 	<div class="container-fluid block" id="baba-info">
       <div class="container">
-
 				<h3 class="text-center m-b-30">
 					肠道健康的最全面评估，最精准管理
 				</h3>

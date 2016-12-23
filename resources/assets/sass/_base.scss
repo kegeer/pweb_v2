@@ -115,7 +115,7 @@ ul {
       &:focus  {
         background-color: transparent;
         opacity: .8;
-        color: rgba(255,255,255,1);
+        color: $c-p;
         @include ease-out-transition(.15s);
         text-decoration: none;
         outline: medium none;
@@ -153,6 +153,10 @@ ul {
         display: inline-block;
         font-size: 28px;
         color: $gray-l-1;
+        @media (max-width: 767px) {
+          display: inline;
+          font-size: 18px;
+        }
       }
     }
     p {
@@ -239,13 +243,23 @@ ul {
   .intro-image {
     padding:0 20px;
     width:50%;
-    @media (max-width: 991px) {
+    @media (min-width:768px) and (max-width: 991px) {
       padding:0;
       margin: 20px auto !important;
+    }
+    @media (max-width: 767px) {
+      padding:0;
+      margin: 0 auto;
     }
     .intro-img-1 {
       display: block;
       width:200%;
+    }
+    img {
+      max-width: 400px;
+      @media(max-width: 767px) {
+        width: 100%;
+      }
     }
   }
 }
@@ -819,13 +833,15 @@ h3.job-head {
   background-repeat: no-repeat;
   background-position:center;
   position: relative;
-  margin-bottom: 80px;
   min-height: 400px;
   padding:100px;
   .section-title {
     color: #fff;
     font-size: 52px;
     font-weight: 300;
+    @media (max-width: 767px) {
+      font-size: 36px;
+    }
   }
   .section-subtitle {
     color: #fff;
@@ -835,6 +851,9 @@ h3.job-head {
     color: $gray-l-4;
     width: 55%;
     margin: 20px auto 40px;
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 }
 .divider {
@@ -855,18 +874,17 @@ h3.job-head {
   }
 }
 .contact {
-  padding: 4%;
-  iframe {
-    border: none;
-    width: 100%;
-    @media (max-width: 991px) {
-        margin: 30px;
+  padding: 5%;
+  .content {
+    img {
+      width: 100%;
     }
   }
 }
 
-ul.address {
-  padding: 100px 0 30px;
+.address {
+  margin: 30px 0;
+  width: 100%;
   li {
     margin-bottom: 10px;
     font-size: 16px;

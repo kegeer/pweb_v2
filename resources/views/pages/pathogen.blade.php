@@ -51,7 +51,7 @@
       </div>
     </div>
 
-  <div class="container-fluid block">
+  <div class="container-fluid block" id="product">
     <div class="container">
       <div class="row pathogen-product">
         <div class="col-md-12">

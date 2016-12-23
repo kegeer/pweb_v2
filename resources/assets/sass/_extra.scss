@@ -135,7 +135,7 @@ header {
     }
     a:hover, a:focus{
       background-color: transparent;
-     opacity: 0.8;
+     	opacity: 0.8;
       text-decoration: none;
       outline: medium none;
     }
@@ -163,15 +163,39 @@ header {
 		}
 	}
 }
-.navbar-nav>li>.dropdown-menu {
-	left: 0;
-	background-color: $gray-base;
-	color: $c-s;
+
+ul.dropdown-menu {
+	position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	li {
+		a {
+			color: #333;
+		}
+	}
 	.divider {
-		background-color: #fff;
+		background-color: $gray-l-4;
+		border-top: none;
 	}
 	.dropdown-header {
-		color: $gray-l-4;
+		color: $gray-l-1;
 	}
 }
 
@@ -180,33 +204,13 @@ header {
 		margin-left: 12px;
 	}
 }
-.dropdown-sub-menu {
-	position: absolute;
-	top: 0;
-	left: 100%;
-	width: 100%;
-	display: none;
-	background-color: darken($gray-base, 5%);
-	padding: 6px 0;
-	text-align: center;
-	li {
-		&.dropdown-sub-header {
-			padding: 0;
-		}
-		a {
-			padding-right: 0;
-		}
-	}
-	.sub-linkage {
-		padding: 8px 12px;
-	}
-}
-.dropdown:hover .dropdown-menu {
-	display: block;
-}
-.dropdown-sub:hover .dropdown-sub-menu {
-	display: block;
-}
+
+// .dropdown:hover .dropdown-menu {
+// 	display: block;
+// }
+// .dropdown-sub:hover .dropdown-sub-menu {
+// 	display: block;
+// }
 // section
 section{
 	position: relative;
@@ -223,6 +227,9 @@ section{
 		font-size: 55px;
 		font-weight: 600;
 		color: #fff;
+		@media (max-width: 767px) {
+			font-size: 36px;
+		}
 	}
 	p {
 		margin: 0 auto;
@@ -230,6 +237,9 @@ section{
 		font-size: 24px;
 		font-weight: 300;
 		color: #fff;
+		@media (max-width: 767px) {
+			font-size: 18px;
+		}
 	}
 	.btn {
 		background: $c-t;
@@ -237,7 +247,8 @@ section{
 		margin: 0 10px;
 		margin-top: 30px;
 		&.btn-trans {
-			background: rgba(255,255,255,0.5);
+			background: rgba(255,255,255,0.8);
+			color: #333;
 		}
 	}
 }
@@ -245,9 +256,6 @@ section{
 .dark-layout {
 	header {
 		@include linear-gradient-dark(rgba(0,0,0,5), rgba(0,0,0,0));
-		.navbar li a {
-			color: #fff;
-		}
 		h1, h2, h3, h4, h5, h6 {
 			color: #fff !important;
 		}

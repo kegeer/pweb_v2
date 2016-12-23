@@ -60,11 +60,9 @@
               <li><span>传真：</span>0755-22361766</li>
               <li><span>邮箱：</span>service@microbiota.cn</li>
             </ul>
-            <a href="/us" class="outline">联系我们</a>
           </div>
           <div class="col-md-6 content">
-            <iframe src="/ditu" width="600" height="600" scrolling="no">
-            </iframe>
+						<img src="http://api.map.baidu.com/staticimage/v2?ak=VrexAGNKQkKhXFt9Woc3LfI6ohIuhDWQ&width=600&height=300&center=%E6%B7%B1%E5%9C%B3%E5%B8%82%E9%94%A6%E7%BB%A3%E7%A7%91%E5%AD%A6%E5%9B%AD&markers=%E8%B0%B1%E5%85%83%E7%A7%91%E6%8A%80|114.080565,22.71456&zoom=16&markerStyles=m,M,1da05d" alt="">
           </div>
         </div>
       </div>

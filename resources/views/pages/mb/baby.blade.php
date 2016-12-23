@@ -4,7 +4,7 @@
 	<section class="bg-head baby-head">
 		<div class="container">
 			<div class="position-center-center  product-head">
-				<h3>婴fen说</h3>
+				<h3>Infant说</h3>
 				<h6>婴幼儿营养代谢检测</h6>
 				<p>主要营养物质代谢、生长发育关键物质合成、益生菌含量</p>
 			</div>

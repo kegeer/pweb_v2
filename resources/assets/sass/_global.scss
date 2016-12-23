@@ -20,7 +20,12 @@
 .text-white {
   color: $gray-l-4 !important;
 }
-
+.text-l-b-s {
+  border-left: 4px solid $c-s;
+}
+.text-l-b-t {
+  border-left: 4px solid $c-t;
+}
 .md-text-left {
     text-align: left;
     @media (max-width: 991px) {

@@ -29,11 +29,11 @@ Route::get('/pathogen', function() {
     return view('pages.pathogen');
 });
 
-Route::get('/partner', function() {
+Route::get('/cooperation', function() {
     return view('pages.partner');
 });
 
-Route::get('/hire', function() {
+Route::get('/job', function() {
     return view('pages.hire');
 });
 Route::get('/baba', function() {
@@ -42,6 +42,3 @@ Route::get('/baba', function() {
 Route::get('/baby', function() {
     return view('pages.mb.baby');
 });
-// Route::get('/obesity', function() {
-//     return view('pages.mb.obesity');
-// });

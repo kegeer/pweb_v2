@@ -14,21 +14,21 @@
 	<div class="container-fluid block feature">
       <div class="container">
         <div class="row feature-section">
-          <div class="col-sm-4 text-center">
+          <div class="col-md-4 text-center">
             <div class="media-box">
               <span class="icon"><img src="/images/icons/feature-1.png"></span>
               <h3>数据引擎</h3>
               <p class="text-muted">数十万份样品数据</p>
             </div>
           </div>
-          <div class="col-sm-4 text-center">
+          <div class="col-md-4 text-center">
             <div class="media-box">
               <span class="icon"><img src="/images/icons/feature-2.png"></span>
               <h3>计算引擎</h3>
               <p class="text-muted">数十年技术研发</p>
             </div>
           </div>
-          <div class="col-sm-4 text-center">
+          <div class="col-md-4 text-center">
             <div class="media-box">
               <span class="icon"><img src="/images/icons/feature-3.png"></span>
               <h3>知识引擎</h3>
@@ -76,7 +76,7 @@
 				<div class="row intro">
           <div class="col-md-6 intro-content">
             <h3 class="intro-title">临床微生态</h3>
-            <h6>基于高通量测序平台的病原微生物检测系统</h6>
+            <h6>无需培养的快速微生物检测</h6>
             <p>无需培养，可快速、全面检测脑脊液或血液样本中的未知细菌、真菌、病毒、寄生虫等可疑病原微生物，有助于明确诊断，精准治疗</p>
 						<a href="/pathogen" class="intro-link"><i class="fa fa-arrow-right"></i>
                 了解更多关于临床微生态的产品
